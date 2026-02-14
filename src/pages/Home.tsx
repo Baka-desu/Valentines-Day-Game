@@ -8,6 +8,7 @@ const modules = [
   { path: '/chat', icon: '💬', label: 'Cringe Chat', desc: 'Chat with your crush', color: 'from-fuchsia-400 to-pink-500' },
   { path: '/date', icon: '🌹', label: 'Date Scenario', desc: 'Generate cringe dates', color: 'from-red-400 to-rose-500' },
   { path: '/wheres-megan', icon: '🦊', label: "Where's Megan?", desc: 'Find Megan Fox!', color: 'from-amber-400 to-orange-500' },
+  { path: '/win-her-back', icon: '💔', label: 'Win Her Back', desc: 'Win her back with strategy', color: 'from-pink-300 to-rose-400' },
 ];
 
 export default function Home() {

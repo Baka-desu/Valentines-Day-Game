@@ -8,6 +8,7 @@ import LoveCalculator from './pages/LoveCalculator';
 import CringeChat from './pages/CringeChat';
 import DateScenario from './pages/DateScenario';
 import WheresMegan from './pages/WheresMegan';
+import WinHerBack from './pages/WinHerBack';
 import HappyEnding from './components/endings/HappyEnding';
 import { useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -42,6 +43,7 @@ function App() {
             <Route path="chat" element={<CringeChat />} />
             <Route path="date" element={<DateScenario />} />
             <Route path="wheres-megan" element={<WheresMegan />} />
+            <Route path="win-her-back" element={<WinHerBack />} />
           </Route>
           <Route path="/happy-ending" element={<HappyEnding />} />
         </Routes>

@@ -1,0 +1,66 @@
+export const dateOptions = {
+  locations: [
+    "Taco Bell",
+    "Olive Garden (fancy!)",
+    "McDonald's PlayPlace",
+    "A Gas Station at 2am",
+    "Walmart Parking Lot",
+    "Chuck E. Cheese",
+    "IKEA (you'll get lost together)",
+    "A Haunted Wendy's",
+  ],
+  activities: [
+    "sharing a single spaghetti noodle Lady-and-the-Tramp style",
+    "having a staring contest (first one to blink pays the bill)",
+    "arguing passionately about pineapple on pizza",
+    "doing the Macarena in complete silence",
+    "reading each other's horoscopes very dramatically",
+    "taking 500 selfies (none of them will be posted)",
+    "crying together over a romantic TikTok",
+    "speed-eating chicken nuggets competitively",
+  ],
+  weathers: [
+    "a dramatic thunderstorm",
+    "a tornado (how romantic)",
+    "suspicious sunshine",
+    "an indoor fog machine",
+    "a rain of tiny hearts",
+    "the aurora borealis (localized entirely in the restaurant)",
+    "an inexplicable snowfall of glitter",
+    "weather that changes every 5 minutes",
+  ],
+  guests: [
+    "Megan Fox (obviously)",
+    "Shrek (he's not leaving)",
+    "Danny DeVito (he's the waiter)",
+    "A very judgmental cat",
+    "Your Mom (she brought snacks)",
+    "A mariachi band that won't stop",
+    "Ryan Gosling (he's crying)",
+    "Three raccoons in a trenchcoat",
+  ],
+};
+
+export const dateEnhancements = [
+  'while "Careless Whisper" plays on loop at max volume',
+  "as a flash mob of people in cupid costumes appears",
+  "while a saxophone player follows you around",
+  "and someone keeps throwing rose petals at your head",
+  "while a drone follows you filming a documentary",
+  "as your ex walks in and immediately walks back out",
+  "while a motivational speaker narrates your every move",
+  "and the jukebox only plays All Star by Smash Mouth",
+  "while confetti cannons go off every 30 seconds",
+  "as a choir of grandmas sings love songs in the background",
+];
+
+export const dateTwists = [
+  "But then you realize it's all a beautiful dream... OR IS IT?",
+  "Plot twist: the special guest was YOU all along.",
+  "And that's when the flash mob proposes to EACH OTHER.",
+  "Suddenly, 1000 butterflies are released. Nobody ordered butterflies.",
+  "The bill arrives. It's just a note that says 'love is free' with a winky face.",
+  "You both look at each other and simultaneously say 'I love Megan Fox.'",
+  "And in that moment, your happiness meter goes through the ROOF.",
+  "The whole restaurant gives you a standing ovation. Even the food claps.",
+];

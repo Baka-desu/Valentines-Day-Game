@@ -22,7 +22,7 @@ export default function HappinessMeter() {
   const { state } = useGame();
   const showMilestone = useSyncExternalStore(subscribe, getSnapshot);
   const lastTriggered = useRef(-1);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   const triggerMilestone = useCallback((msg: string) => {
     clearTimeout(timerRef.current);

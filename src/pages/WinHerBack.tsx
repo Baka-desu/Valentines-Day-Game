@@ -19,7 +19,7 @@ const ACTIONS = [
 
 export default function WinHerBack() {
   const navigate = useNavigate();
-  const { state, dispatch } = useGame();
+  const { dispatch } = useGame();
   const [budget, setBudget] = useState(5000);
   const [turns, setTurns] = useState(0);
   const [reaction, setReaction] = useState<{ text: string; type: 'positive' | 'neutral' | 'negative' } | null>(null);
@@ -39,7 +39,7 @@ export default function WinHerBack() {
     return arr[Math.floor(Math.random() * arr.length)];
   }
 
-  function makeReaction(person: typeof personalities[number], key: string, delta: number, meter: number) {
+  function makeReaction(_person: typeof personalities[number], key: string, delta: number, _meter: number) {
     const positiveReplies: Record<string, string[]> = {
       flowers: [
         'Aww, that made me smile.',
